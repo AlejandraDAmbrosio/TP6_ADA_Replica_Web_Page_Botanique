@@ -1,0 +1,51 @@
+body {
+  background-image: url("../images/backdrop.gif");
+  background-repeat: repeat;
+  color: #665544;
+  font-family: Georgia, Times, serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+.contenedor {
+  margin: 0em auto;
+  max-width: 58.75em;
+  min-width: 45em;
+  width: 45em;
+}
+
+.header {
+  margin: 2.5em 0em 1.25em 0em;
+}
+
+.entrada {
+  background-image: url("../images/shadow.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  float: left;
+  height: 12.23em;
+  margin: 0.6em;
+  width: 13.8em;
+}
+
+figure {
+  background-color: #e5ded7;
+  display: block;
+  height: 10.45em;
+  margin: 0em;
+  padding: 0.6em;
+  text-align: left;
+  width: 12.58em;
+}
+
+image {
+  border:1px solid #d6d6d6; /*Profe lo puso en clase y yo no encontré como poner ese borde antes, como lo hizo el profe tampoco se ve*/
+  height: 12.25em;
+  width: 12.4em;
+}
+
+figcaption {
+  background-image: url("../images/icon.png");
+  background-repeat: no-repeat;
+  padding-left: 1.25em;
+}
